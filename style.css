@@ -1,0 +1,226 @@
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    height: 40px;
+    width: 110px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: lightgray;
+    transition: 0.5s;
+    color: white;
+}
+.btn1{
+    height: 40px;
+    width: 130px;
+   background-color: #5842bc;
+    border-radius: 40px;
+    font-size: 14px; 
+    color: white;
+}
+.play-btn {
+    width: 40px;
+    margin: 20px;
+    background: linear-gradient(90deg, rgba(73,32,144,1) 100%, rgba(0,0,0,1) 100%);
+    border-radius: 60%;
+}
+.top-navbar.style-4{
+    background-image: url(img/top_nav_s4.png);
+    background-size: cover;
+    background-position: top;
+    padding: 10px 15px 20px;
+    text-align: center;
+
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #0002;
+    color: #000;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-small{
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #f7f4ff;
+    border-radius: 5px;
+    color: var(--color-blue4); 
+}
+h1{
+    margin-top: 30px;
+}
+span.info1{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+
+}
+.text{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.icon{
+    margin-left: 20px;
+    font-size: 39px;
+    color:  #5842bc ;
+}
+.small{
+    font-size: 16px;
+    line-height: 9px;
+    color: black;
+    
+}
+.icon1{
+    margin-top: 90px;
+}
+
+
+
+.custom-shape-divider-bottom-1724784154 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1724784154 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 334px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1724784154 .shape-fill {
+    fill: #F8F7FD;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1724784154 svg {
+        width: calc(232% + 1.3px);
+        height: 76px;
+    }
+}
+
+.img img{
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.6;
+} 
+.title-small1{
+    font-size: 12px;
+    padding: 7px 10px;
+    background-color: #f7f4ff;
+    border-radius: 5px;
+    color:#5842bc;
+    margin-top: 200px;
+}
+    .list{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .list li::marker{
+       color: #5842bc;
+    }
+    .list li {
+        margin-bottom: 10px; 
+    }
+    .num-card1{
+        padding-right: 30px;
+    margin-right: 30px;
+    border-right: 1px solid #9993;
+    flex: 1; 
+    text-align: center; 
+    }
+    .numbs {
+        display: flex;
+        gap: 20px; 
+    }
+    .btn2{
+    padding: 12px 30px;     
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 500;
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color:#5842bc;
+    color: white;
+    font-size: 13px;
+    }
+    label {
+        display: inline-block;
+    }
+    .form-check-input{
+        background-color: #5842bc;
+        margin-left: 60px;
+    }
+     h6{
+        font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+    .links{
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    }
+    @media (max-width: 576px) {
+        .features2 .col-sm-4 {
+          margin-bottom: 20px; 
+        }
+      
+        .features2 .row {
+          justify-content: center;
+          gap: 15px;
+        }
+        
+        .features2 .imgs img {
+          margin-bottom: 10px; 
+        }
+      }
+      @media (min-width: 992px) {
+        .features1 .col-lg-2 {
+          flex: 0 0 16.66%; /* عرض 16.66% لكل صورة لتكون الصور الستة في سطر واحد */
+          max-width: 16.66%;
+        }
+      }
+      
+      @media (max-width: 991.98px) {
+        .features1 .col-lg-2 {
+          flex: 0 0 30%;
+          max-width: 30%;
+          padding: 10px;
+        }
+      }
+      
+      .features1 .img img {
+        width: 100%;
+        height: auto;
+      }
+      
+      
+      
+     
